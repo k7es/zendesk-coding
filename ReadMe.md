@@ -16,6 +16,8 @@ To run
 - All data items have a unique ID
 - Local console app
 - `organization_id` property in both the data for Tickets and Users is related to the  `_id` property in Organizations and not the `external_id` GUID
+- The `SubmitterId` and `AssigneeId` fields are related to the User `id` field
+- The search resuls returns relevant data fields from related objects but not all the data.
 - Data input can be case insensitive
 - Order of the results does not matter
 - Prioritied searching by `id`
